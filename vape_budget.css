@@ -1,0 +1,67 @@
+/* Algemene opmaak voor de container */
+.app-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #3583dc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Koptekststijl */
+h2 {
+    text-align: center;
+    color: #3485d7;
+}
+
+/* Labelopmaak */
+.input-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Inputvelden opmaak */
+.input-veld {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Knopstijl */
+.knop {
+    background-color: #247ebf;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: calc(33% - 10px);
+    display: inline-block;
+    text-align: center;
+}
+
+/* Hover-effect voor de knoppen */
+.knop:hover {
+    background-color: #1a528e;
+}
+
+/* Resultaatweergave opmaak */
+.resultaat-weergave {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Waarschuwingstijl als het saldo negatief is */
+.resultaat-weergave.negatief {
+    color: #d9534f;
+}

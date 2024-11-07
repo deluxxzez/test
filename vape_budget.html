@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budgetberekening voor Vapes</title>
+    <link rel="stylesheet" href="vape_budget.css"> 
+</head>
+<body>
+    <div id="budgetApp" class="app-container">
+        <h2>Budgetberekening voor Vapes</h2>
+        <label class="input-label">Maandelijks inkomen: </label>
+        <input type="number" id="inkomen" class="input-veld" placeholder="Voer maandelijks inkomen in"><br><br>
+        <label class="input-label">Aantal vapes per week: </label>
+        <input type="number" id="vapesPerWeek" class="input-veld" placeholder="Voer aantal vapes per week in"><br><br>
+        <button id="weekKnop" class="knop">Toon weekresultaat</button>
+        <button id="maandKnop" class="knop">Toon maandresultaat</button>
+        <button id="jaarKnop" class="knop">Toon jaarresultaat</button>
+        <h3>Resultaat: <span id="resultaat" class="resultaat-weergave">€0</span></h3>
+    </div>
+
+    <script src="vapen.js"></script>
+</body>
+</html>
